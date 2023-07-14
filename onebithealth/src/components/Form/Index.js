@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import { View, Text ,TextInput, Button} from "react-native"
+import { View, Text ,TextInput, Button} from "react-native";
 import ResultImc from "./ResultImc";
+import styles from "./style";
 
 export default function Form(){
 
@@ -30,7 +31,7 @@ function validationImc(){//Chama função imcCalculator() quando altura e peso f
 }
 
     return(
-        <View>
+        <View style={styles.formContext}>
             <View>
                 <Text>Altura</Text>
                 <TextInput
