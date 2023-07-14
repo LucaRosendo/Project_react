@@ -5,7 +5,7 @@ export default function Title(){
     return(
         <View>
             <Text>
-                OneBitHealth
+                Medidor de IMC 
             </Text>
         </View>
     )
